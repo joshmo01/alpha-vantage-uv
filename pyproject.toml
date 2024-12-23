@@ -1,0 +1,13 @@
+[project]
+name = "alpha-vantage-uv"
+version = "0.1.0"
+description = "UV project for Alpha Vantage API"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx",
+    "mcp",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
